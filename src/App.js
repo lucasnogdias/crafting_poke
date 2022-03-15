@@ -1,16 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
+
+//Components
+import PokeGenerator from './components/PokeGenerator';
 
 function App() {
   return (
     <div className="App">
-      <CustomBtn>Press me</CustomBtn>
+      <PokeGenerator />
     </div>
   );
 }
 
 export default App;
-
-const CustomBtn = styled.button`
-  background-color: red;
-`
